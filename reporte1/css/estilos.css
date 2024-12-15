@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.contenedor_titulo{
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+}
+.contenedor_titulo h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.contenedor_grafica{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_tabla{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
