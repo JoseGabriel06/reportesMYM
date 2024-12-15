@@ -6,15 +6,18 @@
     <title>Login</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <link rel="shortcut icon" href="../img/icono.ico">
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <div class="login-form">
-        <form action="" method="POST">
-            <h2>Iniciar Sesión</h2>
-            <input type="text" name="username" placeholder="Usuario" required>
-            <input type="password" name="password" placeholder="Contraseña" required>
-            <button type="submit">Login</button>
+        <form action="" method="POST" class="contenedor_login">
+            <div class="logo">
+            <img src="../img/mym.png" alt="Logo Ditribuidora MYM">
+            </div>
+            <input type="text" name="username" placeholder="Usuario" class="campo" required>
+            <input type="password" name="password" placeholder="Contraseña" class="campo" required>
+            <button type="submit" class="btn_ingresar">INGRESAR</button>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
