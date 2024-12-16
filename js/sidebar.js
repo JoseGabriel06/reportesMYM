@@ -21,6 +21,7 @@ function toggleSubMenu(button){
     sidebar.classList.toggle('close')
     toggleButton.classList.toggle('rotate')
   }
+
 }
 
 function closeAllSubMenus(){
